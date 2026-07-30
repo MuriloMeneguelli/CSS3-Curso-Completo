@@ -5,3 +5,12 @@ body{ /* <--- Isso é um seletor */
     background-color: rgb(219, 219, 219); 
 
 }
+
+.centralizado {
+    text-align: center;
+}
+
+
+.fonte-30px {
+    font-size: 30px;
+}
