@@ -1,10 +1,21 @@
 @charset "UTF-8";
 
-.exemplo-back{
-    height: 900px;
-    width: 900px;
-    background-color: gray;
-    background-image: url("../image/fundo.jpg");
-    background-size: cover;
-   
+div {
+    padding: 5px;
+    background: teal url("../image/bloco.jpg") no-repeat center / 500px;
+    border: 6px rgb(255, 0, 0);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 500px;
+    width: 400px;
+}
+
+div > h1 {
+    color: white;
+    text-align: center  ;
+}
+
+
+div > ul {
+    color: white;
 }
