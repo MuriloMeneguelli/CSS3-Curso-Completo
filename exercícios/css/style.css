@@ -1,20 +1,12 @@
 @charset "UTF-8";
 
-* {
-    padding: 20px;
+main > h1 {
+    background-color: red;
 }
-
-body{ /* <--- Isso é um seletor */ 
-    /* O "Background" é uma propriedade e o valor inserido logo após os dois pontos é chamado de valor*/
-    background-color: rgb(219, 219, 219); 
-
-}
-
+ 
 .centralizado {
     text-align: center;
-}
-
-
-.fonte-30px {
     font-size: 30px;
+    background-color: green;
+    color: aquamarine;
 }
