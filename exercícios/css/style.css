@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+    padding: 20px;
+}
+
 body{ /* <--- Isso é um seletor */ 
     /* O "Background" é uma propriedade e o valor inserido logo após os dois pontos é chamado de valor*/
     background-color: rgb(219, 219, 219); 
