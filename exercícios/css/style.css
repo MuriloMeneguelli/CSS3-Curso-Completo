@@ -3,12 +3,11 @@
 
 
 div {
-    margin: 100px 200px 100px 200px;
     padding: 5px;
-    background: teal url("../image/bloco.jpg") no-repeat center / 500px;
-    border: 6px rgb(255, 0, 0);
+    background: teal url("../image/bloco.jpg") no-repeat center / 600px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    margin-bottom: 50px;
     height: 500px;
     width: 400px;
 }
@@ -18,13 +17,18 @@ div > h1 {
     text-align: center  ;
 }
 
-
-
-h1 {
-    margin-top: 100px;
-}
-
-
 div > ul {
     color: white;
+    
 }
+
+
+a {
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 10px;
+    color: rgb(245, 245, 245);
+    margin: auto;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
